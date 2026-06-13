@@ -1,4 +1,4 @@
-const BASE = 'http://localhost:5000/api'
+const BASE = 'https://smart-cart-backend-six.vercel.app/api'
 
 export async function fetchClusters(k = 4, algorithm = 'kmeans') {
   const res = await fetch(`${BASE}/cluster`, {
